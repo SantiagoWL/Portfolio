@@ -1,0 +1,106 @@
+/*
+FONTS
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Kanit', sans-serif;
+*/
+*, *::before, *::after {
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    max-width: 420px;
+    margin: 0;
+    background-color: #151515;
+    border: solid red;
+    color: #FDFDFD;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 780px;
+    border: solid yellow;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 38%;
+}
+
+.fa-brands {
+    font-size: 7vw;
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+.profile-pic {
+    width: 42%;
+    height: auto;
+    margin: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 7vw;
+    font-weight: 400;
+    padding: 0;
+}
+
+h2 {
+    font-size: 5vw;
+    margin-bottom: 1em;
+}
+
+u {
+    text-decoration: underline;
+    text-decoration-color: #5DD9A3;
+}
+
+p {
+    color: #D3D3D3;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4vw;
+    padding: 0 6%;
+}
+
+.about {
+    margin-bottom: 2em;
+}
+
+.contact-btn {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #FDFDFD;
+    background: none;
+    border: none;
+    padding-bottom: 0.5em;
+    border-bottom: solid #5DD9A3;
+}
+
+
+@media (min-width: 420px) {
+    h1 {
+        font-size: 1.9rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    p {
+        font-size: 1.1rem;
+        margin: 1em 1em;
+        padding: 0 0.5em;
+    }
+    
+    .fa-brands {
+        font-size: 1.8rem;
+    }
+}
