@@ -1,4 +1,4 @@
-export const tecData = [
+export const tecExp = [
     {
         name: `HTML`,
         experience: `Around 1 year experience`,
