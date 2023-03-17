@@ -16,24 +16,25 @@ export const tecExp = [
 
 export const projectsData = [
     {
-        image: "/images/Scrimbafyme.png",
-        nameProject: "SCIMBAFY.ME",
+        image: "images/Scrimbafyme.png",
+        name: "SCIMBAFY.ME",
         tecUsed: ["HTML", "CSS"],
         url: "https://app.netlify.com/sites/scrimbafyme/overview",
         github: "https://github.com/SantiagoWL/Scrimbafy-Me"
     },
     {
-        image: "/images/catfeelings.png",
-        nameProject: "CAT MOOD",
+        image: "images/catfeelings.png",
+        name: "CAT MOOD",
         tecUsed: ["HTML", "CSS", "JAVASCRIPT"],
         url: "https://app.netlify.com/sites/cat-feelings/overview",
         github: "https://github.com/SantiagoWL/Cat-Mood"
     },
     {
-        image: "/images/Twimba.png",
-        nameProject: "TWIMBA",
+        image: "images/Twimba.png",
+        name: "TWIMBA",
         tecUsed: ["HTML", "CSS", "JAVASCRIPT"],
         url: "https://twimba-scrimba.netlify.app/",
         github: "https://github.com/SantiagoWL/Twimba"
     }
 ]
+
