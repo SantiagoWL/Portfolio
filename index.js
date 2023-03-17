@@ -40,13 +40,17 @@ function getProjects(){
         
         projectsFeed+=`
             <img src="${project.image}" class="project-img">
-            <h3>${project.name}</h3>
-            <section class="tecs-section">
-                <!--Tecs used in the project-->
-                ${tecnologies}
-            </section>
-            <section class="procode-btns">
-                <!--See code & project buttons-->
+            <section class="project-info">
+                <h3>${project.name}</h3>
+                <section class="tecs-section">
+                    <!--Tecs used in the project-->
+                    ${tecnologies}
+                </section>
+                <section class="procode-btns">
+                    <!--See code & project buttons-->
+                    <button class="contact-btn btn-animation">VIEW PROJECT</button>
+                    <button class="contact-btn btn-animation">VIEW CODE</button>
+                </section>
             </section>
         `
     })
