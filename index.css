@@ -256,6 +256,7 @@ input {
     padding: 1vw 0 5vw 6vw;
     background-color: transparent;
     font-size: 3.6vw;
+    color: white;
 }
 
 .msg-input {
