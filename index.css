@@ -193,8 +193,9 @@ p {
 .project-info {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 98%;
     margin-bottom: 2em;
+    
 }
 
 h3 {
@@ -208,7 +209,6 @@ h3 {
 .tecs-section {
     display: flex;
     flex-direction: row;
-    
 }
 
 .tecs-section p {
@@ -218,11 +218,61 @@ h3 {
 }
 
 .procode-btns {
+    margin: 0;
     margin-top: 0.7em;
 }
 
 .procode-btns button {
     font-size: 2.7vw;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 1em;
+}
+
+.form-sect {
+    margin: 0;
+    text-align: center;
+    padding-top: 1.8em;
+    padding-bottom: 18vw;
+    border-bottom: solid #B3B3B3;
+}
+
+.form-sect h1 {
+    font-size: 9vw;
+}
+
+form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input {
+    margin-bottom: 1.1em;
+    border: none;
+    border-bottom: solid 2px #B3B3B3;
+    font-family: 'Kanit', sans-serif;
+    padding: 1vw 0 5vw 6vw;
+    background-color: transparent;
+    font-size: 3.6vw;
+}
+
+.msg-input {
+    padding: 1vw 0em 22vw 6vw;
+}
+
+.send-msg-sect {
+    text-align: right;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1.2em 0;
+    
 }
 
 
