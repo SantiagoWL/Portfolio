@@ -218,6 +218,18 @@ input {
     padding: 1vw 0 5vw 6vw;
 }
 
+textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px #B3B3B3;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3.6vw;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 150px;
+}
+
 .msg-input {
     padding: 1vw 0em 22vw 6vw;
 }
