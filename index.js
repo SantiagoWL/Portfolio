@@ -6,26 +6,12 @@ function getExpFeed(){
     
     tecExp.forEach(function(tecnology){
         expFeed+=`
-        <h1>${tecnology.name}</h1>
+        <h1 class="tec-name">${tecnology.name}</h1>
         <p>${tecnology.experience}</p>
         `
     })
     return expFeed
 }
-
-let projectTec = projectsData.tecUsed
-
-function getTecSection(){
-    let tecSect = ``
-    
-    projectTec.forEach(function(tecnology){
-        tecSect+=`
-            <p>${inf.tecUsed}</p>
-        `
-    })
-    return tecSect
-}
-
 
 function getProjects(){
     let projectsFeed = ``
@@ -34,22 +20,22 @@ function getProjects(){
         let tecnologies = ``
         project.tecUsed.forEach(function(tecnology){
             tecnologies+=`
-            <p>${tecnology}</p>
+            <p class="tec-used">${tecnology}</p>
             `
         })
         
         projectsFeed+=`
             <img src="${project.image}" class="project-img">
             <section class="project-info">
-                <h3>${project.name}</h3>
+                <h2 class="project-name">${project.name}</h2>
                 <section class="tecs-section">
                     <!--Tecs used in the project-->
                     ${tecnologies}
                 </section>
-                <section class="procode-btns">
+                <section class="project-btns-section">
                     <!--See code & project buttons-->
-                    <button class="contact-btn btn-animation">VIEW PROJECT</button>
-                    <button class="contact-btn btn-animation">VIEW CODE</button>
+                    <button class="contact-btn btn-animation view-btn">VIEW PROJECT</button>
+                    <button class="contact-btn btn-animation view-btn">VIEW CODE</button>
                 </section>
             </section>
         `

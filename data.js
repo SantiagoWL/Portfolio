@@ -37,4 +37,3 @@ export const projectsData = [
         github: "https://github.com/SantiagoWL/Twimba"
     }
 ]
-
