@@ -13,8 +13,6 @@ body {
     background-color: #151515;
     color: #FDFDFD;
     margin: 0;
-    /*GUIDE - Delete later*/
-    max-width: 420px;
 }
 
 /* =================
@@ -226,8 +224,18 @@ textarea {
     font-family: 'Kanit', sans-serif;
     font-size: 3.6vw;
     min-width: 100%;
-    max-width: 100%;
-    max-height: 150px;
+    resize: none;
+}
+
+/* style - scrollbar */
+textarea::-webkit-scrollbar {
+    width: 4px;
+    background-color: #B3B3B3;
+}
+
+/* style - scrollbar thumb */
+textarea::-webkit-scrollbar-thumb {
+    background-color: #D3D3D3;
 }
 
 .msg-input {
