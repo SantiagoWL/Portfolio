@@ -6,8 +6,10 @@ function getExpFeed(){
     
     tecExp.forEach(function(tecnology){
         expFeed+=`
-        <h1 class="tec-name">${tecnology.name}</h1>
-        <p>${tecnology.experience}</p>
+        <section class="each-tec">
+            <h1 class="tec-name">${tecnology.name}</h1>
+            <p>${tecnology.experience}</p>
+        </section>
         `
     })
     return expFeed
