@@ -248,6 +248,14 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /* =================
+    Outro
+   ================= */
+
+.outro-icons {
+    width: 50%;
+}
+
+/* =================
     Buttons
    ================= */
    
@@ -319,6 +327,10 @@ textarea::-webkit-scrollbar-thumb {
     background-color: #5DD9A3;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
     font-weight: bold;
+}
+
+.disappear {
+    display: none;
 }
 
 @media (min-width: 950px) {

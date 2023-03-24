@@ -34,7 +34,7 @@ function getProjects(){
                     <!--Tecs used in the project-->
                     ${tecnologies}
                 </section>
-                <section class="project-btns-section">
+                <section class="project-btns-section disappear">
                     <!--See code & project buttons-->
                     <button class="contact-btn btn-animation view-btn">VIEW PROJECT</button>
                     <button class="contact-btn btn-animation view-btn">VIEW CODE</button>
