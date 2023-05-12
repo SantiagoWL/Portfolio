@@ -30,10 +30,10 @@ export const projectsData = [
         github: "https://github.com/SantiagoWL/Cat-Mood"
     },
     {
-        image: "images/Twimba.png",
-        name: "TWIMBA",
-        tecUsed: ["HTML", "CSS", "JAVASCRIPT"],
-        url: "https://twimba-scrimba.netlify.app/",
-        github: "https://github.com/SantiagoWL/Twimba"
+        image: "images/reactfacts.png",
+        name: "REACT FACTS",
+        tecUsed: ["HTML", "CSS", "REACT"],
+        url: "https://react-facts-proj.netlify.app/",
+        github: "https://github.com/SantiagoWL/React-Facts"
     }
 ]
