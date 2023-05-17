@@ -35,5 +35,12 @@ export const projectsData = [
         tecUsed: ["HTML", "CSS", "REACT"],
         url: "https://react-facts-proj.netlify.app/",
         github: "https://github.com/SantiagoWL/React-Facts"
+    },
+    {
+        image: "images/AirBnb Experiences.png",
+        name: "AIRBNB EXPERIENCES",
+        tecUsed: ["REACT", "JSX", "CSS"],
+        url: "https://airbnb-expclone.netlify.app/",
+        github: "https://github.com/SantiagoWL/Airbnb-Exp-Clone"
     }
 ]
