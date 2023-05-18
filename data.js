@@ -27,9 +27,9 @@ export const projectsData = [
         github: "https://github.com/SantiagoWL/Scrimbafy-Me"
     },
     {
-        image: "images/catfeelings.png",
-        name: "CAT MOOD",
-        tecUsed: ["HTML", "CSS", "JAVASCRIPT"],
+        image: "images/travel journal.png",
+        name: "MY TRAVEL JOURNAL",
+        tecUsed: ["REACT", "JAVASCRIPT", "CSS"],
         url: "https://app.netlify.com/sites/cat-feelings/overview",
         github: "https://github.com/SantiagoWL/Cat-Mood"
     },
