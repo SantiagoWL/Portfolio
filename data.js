@@ -30,8 +30,8 @@ export const projectsData = [
         image: "images/travel journal.png",
         name: "MY TRAVEL JOURNAL",
         tecUsed: ["REACT", "JAVASCRIPT", "CSS"],
-        url: "https://app.netlify.com/sites/cat-feelings/overview",
-        github: "https://github.com/SantiagoWL/Cat-Mood"
+        url: "https://reactmy-travel-journal.netlify.app/",
+        github: "https://github.com/SantiagoWL/My-Travel-Journal"
     },
     {
         image: "images/reactfacts.png",
