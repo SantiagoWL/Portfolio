@@ -1,19 +1,19 @@
 export const tecExp = [
     {
         name: `HTML`,
-        experience: `0.75 years experience`
+        experience: ``
     },
     {
         name: `CSS`,
-        experience: `0.75 years experience`
+        experience: ``
     },
     {
         name: `Javascript`,
-        experience: `0.75 years experience`
+        experience: ``
     },
     {
         name: `React`,
-        experience: `1 month experience`
+        experience: ``
     }
 
 ]
